@@ -62,7 +62,7 @@ parser.add_argument(
     "--win-size",
     dest="win_size",
     metavar="INT",
-    default=24,
+    default=32,
     type=int,
     help="Set pixel-size for Windows cursors. (default: %(default)s)",
 )
